@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 100px;
+  background-color: black;
+  position: sticky;
+  top: 1px;
+  z-index: 1;
+}
+
+.dos {
+  height: 50px;
+  background-color: blue;
+  position: sticky;
+  top: 100px;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  color: brown;
+  background-color: aqua;
+}
+
+#red {
+  position: relative;
+  background-color: red;
+  top: 30px;
+  right: 30px;
+}
