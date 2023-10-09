@@ -1,5 +1,58 @@
-body {
-  /* color: white; */
+.nav > a {
+  text-decoration: none;
+  color: white;
+  background-color: grey;
+  padding: 0.8rem 1.6rem;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  transition: all 0.45s ease-in;
+}
+
+.nav > a:hover {
+  background-color: white;
+  border: 1px solid gray;
+  color: grey;
+}
+
+.personal-img {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.personal-img::before {
+  content: "";
+  position: absolute;
+  top: -120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(0 0% 100% / 0.5);
+  transform: rotate(90deg);
+  transition: all 0.45s ease-in-out;
+}
+
+.personal-img:hover:before {
+  top: 0;
+  transform: rotate(0);
+}
+
+.personal-img h2 {
+  position: absolute;
+  top: 50%;
+  right: -100%;
+  transform: translate(50%, -50%);
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.personal-img:hover h2 {
+  right: 50%;
+}
+/* body {
+  color: white; 
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -11,27 +64,27 @@ body {
 }
 
 .main-title {
-  /*  border: 10px dotted red;
-  border: 10px solid black; */
+  border: 10px dotted red;
+  border: 10px solid black;
   border: 5px dashed black;
 }
 
 .hero {
   height: 500px;
-  /* background: linear-gradient(to left, red, blue); */
+  background: linear-gradient(to left, red, blue);
   background: linear-gradient(
       to bottom,
       rgba(225, 225, 225, 0.5),
       rgba(137, 154, 79, 0.5)
     ),
     url(../hero-bg.jpg);
-  /*
+  
   background-image: url("../hero-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: repeat-x;
-  background-repeat: repeat-y; */
+  background-repeat: repeat-y;
 }
 
 .personal-info_title {
@@ -104,3 +157,4 @@ a {
 .experience i:nth-of-type(2):hover {
   color: brown;
 }
+*/
