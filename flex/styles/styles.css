@@ -74,20 +74,31 @@ blog-post_post--description {
   display: flex;
   justify-content: space-evenly;
   background-color: #541690;
-  padding: 1rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  margin-bottom: 3rem;
-  border-radius: 2rem;
+  margin-top: 30vh;
+  transform: translateY(-50%);
+  padding: 2rem 4rem;
 }
 
 .profile-cards__cards {
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 .profile-cards__card--img {
   height: 20rem;
   width: 20rem;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.profile-cards__cards__informacion__name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.profile-cards__cards__informacion__role {
+  font-size: 1.5rem;
+  color: rgb(196, 194, 194);
 }
