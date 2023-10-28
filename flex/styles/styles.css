@@ -41,7 +41,7 @@ body {
 }
 
 .blog-post_post {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .blog-post_post--img {
@@ -69,6 +69,7 @@ body {
 
 blog-post_post--description {
   font-size: 1.5rem;
+  text-align: right;
 }
 
 .profile-cards {
@@ -111,6 +112,7 @@ blog-post_post--description {
   justify-content: center;
   gap: 20rem;
   margin-bottom: 3rem;
+  margin-top: 1.5rem;
 }
 
 img {
@@ -127,13 +129,13 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   width: 140%;
 }
 
@@ -142,13 +144,13 @@ input {
   background: none;
   outline: none;
   padding: 1rem 2rem;
-  border: 1px solid black;
-  border-radius: 0.5rem;
+  border: 2px solid #541690;
+  border-radius: 1rem;
 }
 
 input[type="submit"] {
   border: none;
-  background-color: #6a67ce;
+  background-color: #541690;
   color: white;
   cursor: pointer;
 }
@@ -174,6 +176,7 @@ li a {
 a {
   text-decoration: none;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 ul li:first-child {
@@ -188,7 +191,7 @@ ul li:last-child {
   background-color: #eb5353;
 }
 
-p,
-a {
+p {
   text-align: center;
+  font-size: 1.5rem;
 }
