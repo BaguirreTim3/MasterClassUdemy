@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 15rem);
+  grid-template-areas:
+    "logo logo logo mini-title mini-title mini-title"
+    "descripcion descripcion descripcion title title title"
+    "img img img email email email"
+    "img img img submit submit submit"
+    "img img img google google google"
+    "img img img sign-in sign-in sing-in";
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.logo img {
+  height: 3rem;
+}
+
+.description {
+  grid-area: description;
+}
+
+.mini-title {
+  grid-area: mini-title;
+}
+
+.title {
+  grid-area: title;
+}
+
+.title {
+  grid-area: title;
+}
