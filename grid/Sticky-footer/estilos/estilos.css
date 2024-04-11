@@ -14,15 +14,15 @@ body {
 }
 
 header {
-  background-color: blue;
+  background-color: rgb(218, 215, 205);
 }
 
 section {
-  background-color: red;
+  background-color: rgb(163, 177, 138);
 }
 
 footer {
-  background-color: yellow;
+  background-color: rgb(88, 129, 87);
 }
 
 header,
